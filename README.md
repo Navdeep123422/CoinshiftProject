@@ -18,6 +18,20 @@ TestNG
 Apache POI to extract test data from Excel files
 
 # Getting Started
-Clone repository.
-Use Eclipse with TestNG configuration for Test scripts and check Test Report Generation.
+1. Clone repository.
+2. Use TestNG configuration for Test scripts and check Test Report Generation.
+emailable TestNg Report
+![image](https://user-images.githubusercontent.com/99684795/154835474-d15258ee-9611-42ae-8561-aba5afe7d098.png)
+   
+Test suits Result
+![image](https://user-images.githubusercontent.com/99684795/154835948-c30b1984-072a-41ff-a84b-861cb3daaf8c.png)
+![image](https://user-images.githubusercontent.com/99684795/154835959-74995b93-2392-4e1f-b85b-803692a59a7f.png)
+
+3. Source Data file is on src> test > java > SourceDataFile.xlxs, Test data can be add, update and delete from here.
+4. Go to src > test > java > TestAPIClass, Put the url on BaseURI for API testing wanted to continue in both Get and Post method.
+5. Data provider annotation can be used to provide data from external files, For File reading we have Generic class as TestExcelUtils using Apache POI.
+6. For Different Test Scenarios assert methods can be added and by using TestNG Test script could be checked.
+
+
+
 
